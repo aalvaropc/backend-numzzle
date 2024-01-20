@@ -37,8 +37,8 @@ async def process_text():
 
     # Preparar datos de respuesta
     response_data = {
-        "movimientos": movements,
-        "total_pasos": total_steps
+        "list_move": movements,
+        "total_steps": total_steps
     }
 
     return response_data
